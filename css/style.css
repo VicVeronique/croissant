@@ -22,3 +22,9 @@ img {
   max-width: 80%;
   margin: 40px;
 }
+
+.photo {
+  display: block;
+  margin: 30px auto;
+  border-radius: 10px;
+}
