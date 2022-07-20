@@ -1,4 +1,6 @@
 body {
+  margin-left: 70px;
+  margin-right: 70px;
   text-align: center;
   background-color: pink;
   color: aliceblue;
@@ -6,25 +8,40 @@ body {
 
 h1 {
   font-size: 60px;
+  color: palevioletred;
+}
+
+p {
+  font-size: larger;
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 a {
-  color: blueviolet;
+  color: palevioletred;
   text-decoration: none;
+  font-weight: bold;
   font-size: 20px;
+  margin: 20px;
 }
 
 a:hover {
   color: aliceblue;
 }
 
-img {
-  max-width: 80%;
-  margin: 40px;
-}
-
 .photo {
   display: block;
-  margin: 30px auto;
+  max-width: 60%;
+  margin: 20px auto;
   border-radius: 10px;
+}
+
+footer {
+  display: inline;
+  text-align: center;
+}
+
+.nav {
+  margin: 50px auto;
 }
