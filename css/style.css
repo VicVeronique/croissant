@@ -1,6 +1,5 @@
 body {
-  margin-left: 70px;
-  margin-right: 70px;
+  margin: 50px 50px;
   text-align: center;
   background-color: pink;
   color: aliceblue;
@@ -9,6 +8,7 @@ body {
 h1 {
   font-size: 60px;
   color: palevioletred;
+  text-align: center;
 }
 
 p {
@@ -44,4 +44,25 @@ footer {
 
 .nav {
   margin: 50px auto;
+}
+
+@media (max-width: 600px) {
+  body {
+    text-align: justify;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 20px;
+  }
+  .photo {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+  }
+  footer {
+    font-size: 10px;
+  }
 }
